@@ -10,7 +10,7 @@ npm install --save @xlnt/scry-one
 
 ```js
 new Watcher(
-    'http://127.0.0.1:8545',  // your
+    'http://127.0.0.1:8545',  // your node url
     [/* An array of ABIs that you might be searching against. */],
     2,   // how many confirmations do you need?
     500  // the interval with which you'd like to poll your node

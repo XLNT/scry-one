@@ -1,5 +1,5 @@
 {
-  "name": "really-nice-eth-event-emitter",
+  "name": "@xlnt/scry-one",
   "version": "0.0.1",
   "description": "An Ethereum event watcher that's really resilient and nice.",
   "main": "lib/index.js",
@@ -17,10 +17,18 @@
     "tslint": "tslint --project ."
   },
   "dependencies": {
-    "@xlnt/gnarly-core": "^0.1.10-2"
+    "bn.js": "^4.11.8",
+    "ethereumjs-blockstream": "^4.0.1",
+    "isomorphic-fetch": "^2.2.1",
+    "web3-eth-abi": "^1.0.0-beta.34",
+    "web3-utils": "^1.0.0-beta.34"
   },
   "devDependencies": {
+    "@types/node": "^10.0.5",
+    "dotenv": "^5.0.1",
+    "truffle-hdwallet-provider": "^0.0.5",
     "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
+    "typescript": "^2.8.3",
+    "web3": "^1.0.0-beta.34"
   }
 }
